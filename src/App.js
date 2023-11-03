@@ -1,11 +1,9 @@
-import { useEffect } from 'react'; 
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
 import Home from './components/Home/Home'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 function App() {
-  useEffect(() => {
-    import('bootstrap/dist/js/bootstrap.min.js')
-  }, []);
   return (
     <div className="App">
       <Home />

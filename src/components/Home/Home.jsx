@@ -29,7 +29,7 @@ const Home = () => {
         setTodos(copy)
     }
     const removeTodo = (id) => {
-        setTodos([...todos].filter(t => t._id != id))
+        setTodos([...todos].filter(t => t._id !== id))
     }
 
     return (
